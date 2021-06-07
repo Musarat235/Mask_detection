@@ -71,7 +71,7 @@ def detect_and_predict_mask(frame, faceNet, maskNet):
 		preds = maskNet.predict(faces, batch_size=32)
 
 	# return a 2-tuple of the face locations and their corresponding
-	# locations
+
 	return (locs, preds)
 
 # construct the argument parser and parse the arguments
